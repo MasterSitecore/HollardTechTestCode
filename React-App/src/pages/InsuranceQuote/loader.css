@@ -1,0 +1,36 @@
+/* Loader.css */
+.loader-container {
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.loader-spinner {
+  animation: pulseEffect 1.5s infinite ease-in-out; /* Pulse animation */
+}
+
+/* Fade-in effect for the entire loader */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Pulse effect to give a subtle "breathing" animation */
+@keyframes pulseEffect {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(0, 123, 255, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(0, 123, 255, 0.7);
+  }
+}

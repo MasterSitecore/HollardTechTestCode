@@ -1,0 +1,35 @@
+{
+  "PolicyFrequency": [
+    { "label": "Monthly", "value": "1" },
+    { "label": "Annually", "value": "2" }
+  ],
+  "branchList": [
+    { "label": "Bloemfontein", "value": "1" },
+    { "label": "Cape Town", "value": "2" },
+    { "label": "Durban", "value": "3" },
+    { "label": "Johannesburg", "value": "4" },
+    { "label": "Pretoria", "value": "5" }
+  ],
+  "FrequencyList": [
+    { "label": "Annual", "value": "1" },
+    { "label": "Monthly", "value": "2" }
+  ],
+  "VehicleMakeList": [
+    { "label": "Audi", "value": "1" },
+    { "label": "BMW", "value": "2" },
+    { "label": "Ford", "value": "3" },
+    { "label": "Honda", "value": "4" },
+    { "label": "Mercedes Benz", "value": "5" }
+  ],
+  "VehicleModelList": [
+    { "label": "A1 SPORTBACK 1.0T FSI SE STRONIC", "value": "1", "make": "1" },
+    { "label": "S4 QUATTRO TIPTRONIC", "value": "2", "make": "1" },
+    { "label": "Q5 2.0 TDI QUATTRO STRONIC", "value": "2", "make": "1" },
+    { "label": "A5 SPRTBACK 2.0 TDI MULTI", "value": "3", "make": "1" },
+    { "label": "320i A/T (E46)", "value": "4", "make": "2" },
+    { "label": "X3 2.5i ACTIVITY", "value": "5", "make": "2" },
+    { "label": "GRAN TURISMO 520d", "value": "6", "make": "2" },
+    { "label": "X5 3.0 SPORT", "value": "7", "make": "2" },
+    { "label": "750i (E65)", "value": "8", "make": "2" }
+  ]
+}
